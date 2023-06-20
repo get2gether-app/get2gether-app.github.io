@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <div className="absolute inset-0 z-[-1]">
         <Image
-          src="/get2gether/bg.svg"
+          src="/bg.svg"
           alt="Picture of the author"
           layout="fill"
           objectFit="cover"
@@ -31,7 +31,7 @@ export default function Home() {
 
           <Link href="https://play.google.com/store/apps/details?id=com.sftech.gettogether">
             <Image
-              src="/get2gether/google-play-badge.png"
+              src="/google-play-badge.png"
               alt="Get Together on Google Play"
               width={200}
               height={200}
