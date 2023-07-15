@@ -42,7 +42,7 @@ const WhatIsGetTogetherPage = () => {
                     </p>
                     <br />
                     <p>
-                        User-Friendly Interface: Get Together features a user-friendly interface that is intuitive and easy to navigate. The app's simple and elegant design allows users to seamlessly explore and access desired features. This enhances your overall dating experience, making it more enjoyable.
+                        User-Friendly Interface: Get Together features a user-friendly interface that is intuitive and easy to navigate. The app is simple and elegant design allows users to seamlessly explore and access desired features. This enhances your overall dating experience, making it more enjoyable.
                     </p>
                     <br />
                     <p>
