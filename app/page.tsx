@@ -38,6 +38,11 @@ export default function Home() {
             <span className="text-2xl font-bold">
               Cooming Soon
             </span>
+            <span className="text-xl text-white-600 mt-4 sm:mt-0 sm:ml-4">
+              <Link href="/why-get-together">
+                <span className="text-white-600">Why Get Together?</span>
+              </Link>
+            </span>
           </div>
         </main>
         <footer className="flex justify-end w-full h-24 text-white items-center px-5">
@@ -47,7 +52,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="sr-only">Get Together - Discover Love, Your Way</span>            
+            <span className="sr-only">Get Together - Discover Love, Your Way</span>
             <span className="text-l">
               2023 © Get Together
             </span>
