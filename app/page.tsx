@@ -23,8 +23,8 @@ export default function Home() {
           quality={100}
         />
       </div>
-      <div className="flex flex-col min-h-screen py-2">
-        <header className="flex items-center w-full h-15 px-5 text-white">
+      <div className="flex flex-col min-h-screen">
+        <header className="flex items-center w-full h-15 px-5 text-white py-5">
           <Image src="/logo.png" alt="Picture of the author" width={50} height={50} style={{ borderRadius: 5 }} />
         </header>
         <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
@@ -40,6 +40,19 @@ export default function Home() {
             </span>
           </div>
         </main>
+        <footer className="flex justify-end w-full h-24 text-white items-center px-5">
+          <a
+            className="flex items-center justify-center"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="sr-only">Get Together - Discover Love, Your Way</span>            
+            <span className="text-l">
+              2023 © Get Together
+            </span>
+          </a>
+        </footer>
       </div>
     </>
   )
