@@ -25,19 +25,12 @@ export default function Home() {
               Get Together
             </a>
           </h1>
-          <h2 className="text-1xl">
-            Discover Love, Your Way
-          </h2>
 
-          <Link href="https://play.google.com/store/apps/details?id=com.sftech.gettogether">
-            <Image
-              src="/google-play-badge.png"
-              alt="Get Together on Google Play"
-              width={200}
-              height={200}
-              quality={100}
-            />
-          </Link>
+          <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
+            <h1 className="text-2xl font-bold">
+              Cooming Soon
+            </h1>
+          </div>
         </main>
       </div>
     </>
